@@ -77,8 +77,19 @@ a.mobile__logo{
     color: #8a99c0;
     margin-bottom: -10px;
 }
-
-a#myBtn{
+a#myBtn {
+    font-size: 14px;
+    background-color: #f35c27;
+    color: #fff;
+    padding: 280px -5px;
+    border: none;
+   text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 240px;
+    padding: 10px 2px;
+}
+/* a#myBtn{
 
     font-size: 16px;
     background-color: #f35c27;
@@ -90,8 +101,8 @@ a#myBtn{
     letter-spacing: 0.25px;
     text-align: center;
     border-radius: 30px;
-    cursor: pointer;
-}
+    cursor: pointer; */
+/* } */
 a#myBtn:hover{
     background-color: #414042;
     transition-duration: 0.5s;
@@ -99,7 +110,7 @@ a#myBtn:hover{
 }
 
 .header__logo  img{
-   width: 80%;
+   width: 90%;
 }
 
 
@@ -181,7 +192,7 @@ a#myBtn:hover{
 }
 .header__nav-content{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
@@ -190,9 +201,10 @@ a#myBtn:hover{
 .header__nav-bar{
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    order: 3;
+    /* justify-content: flex-end; */
+    /* order: 3; */
     padding-top: 10px;
+    justify-content: center;
 }
 .dropdown-submenu li{
     display: inline-flex;
@@ -202,7 +214,9 @@ a#myBtn:hover{
 }
 
 .header__nav-bar a {
-    font-size: 16px;
+    /* font-size: 16px; */
+     font-size: 15px;
+    
     color: #414042;
     font-weight: 500;
     line-height: 30px;
@@ -2569,7 +2583,20 @@ li.post__article_advantage--item{
         background-size: cover;
         background-position: center bottom;
         object-fit: cover;
-    }   
+    } 
+    .header__info-social {
+        display: inline-flex;
+        width: 0px;
+        justify-content: flex-end;
+        margin-right: 29px;
+        margin-left: 29px;
+    }
+    .header__nav-bar {
+        width: 100%;
+        display: flex;
+        padding-top: 10px;
+        justify-content: flex-end;
+    }
 }
 @media (max-width: 1200px){
     .header_e-mail{
@@ -3134,6 +3161,12 @@ flex: 0 0 45%;
     width: 100%;
     min-height: 1px;
   }
+  .header__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 
 }
 @media ( max-width: 900px){
