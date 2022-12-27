@@ -25,17 +25,25 @@ time, mark, audio, video {
     list-style: none;
     
 }
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+
+}
 
 body {
-    line-height:1;
+    line-height: 1;
     font-family: 'Montserrat', sans-serif;
     /* font-size: 20px; */
     background-color: rgb(255, 255, 255);
-    font-weight: 400;
-    line-height: 18px;
-   
+    /* line-height: 28px;
+    letter-spacing: 1.5px;
+    font-size: 16px; */
+    
 }
-
+body.lock{
+    overflow: hidden;
+}
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
     display:block;
@@ -115,7 +123,8 @@ input, select {
 }
 
 .indent{
-    padding-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 40px;
    
 }
 .title{
@@ -126,6 +135,21 @@ input, select {
     margin-bottom: 50px;
     line-height: 52px;
     text-align: center;
+}
+.title-model{
+    position: relative;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 0px!important;
+    line-height: 52px;
+    text-align: center;
+}
+.cars-logo{
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
 }
 .title::after{
     content: "";
@@ -141,3 +165,12 @@ input, select {
 :root {
     --swiper-theme-color: #ff0062;
 }
+#scrollToTop{
+    position: fixed;
+    bottom: 90px;
+    right: 40px;
+    
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+   }
