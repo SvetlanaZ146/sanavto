@@ -386,6 +386,9 @@ h3.dropdown-submenu__title {
 .burger{
     display: none;
 }
+.header__burger {
+    padding: 20px;
+}
 .overlay{
     position: fixed;
     left: 0;
@@ -3570,7 +3573,7 @@ flex: 0 0 45%;
    
     .header_phone-kiyvstar {
         padding: 0 0 0 0;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
     a.dropdown-list__link {
         font-size: 18px;
@@ -3634,7 +3637,13 @@ flex: 0 0 45%;
 }
      
     }
-   
+   @media (max-width: 502px){
+    .header_phone-kiyvstar {
+        padding: 0 0 0 0;
+        margin-bottom: 20px;
+    }
+
+   }
 
 @media (max-width: 420px){
     .banner__title {
