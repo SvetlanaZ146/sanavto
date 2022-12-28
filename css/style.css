@@ -3482,7 +3482,7 @@ flex: 0 0 45%;
         justify-content: center;
     }
     .languages {
-        margin-top: 12px;
+        margin-top: 18px;
     }
 }
 @media (max-width: 590px){
@@ -3712,6 +3712,14 @@ flex: 0 0 45%;
     .car__model-image55 {
         height: 205px;
     }
+    .header_phone-kiyvstar {
+    padding: 0px;
+    margin-bottom: 19px;
+     }
+     .header_phone-lifesell {
+      padding: 0 10px 0 18px;
+      margin-bottom: 9px;
+}
 }
 @media (max-width: 380px){
     li.auto__list-carModels--item {
