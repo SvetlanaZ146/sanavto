@@ -1234,13 +1234,17 @@ a#feedbackAll__Btn:hover{
     line-height: 28px;
     letter-spacing: 0.1px;
 }
+.blog__item--wrapper {
+    padding: 0px 12px;
+    height: 100%;
+}
 .blog__item--image{
     width: 100%;
     object-fit: cover;
     height: 170px;
 }
 .blog__item--date{
-    padding: 22px 22px  10px 0;
+    padding: 22px 22px  10px 9px;
     display: flex;
     
 }
@@ -1270,7 +1274,8 @@ a#feedbackAll__Btn:hover{
      display: inline-flex;
      position: relative;
      flex: 1;
-     justify-content: flex-start;
+     justify-content: flex-end;
+     margin-right: 20px;
 }
 .blog__item--link:hover{
     color: #f35c27;
@@ -1747,8 +1752,8 @@ table {
  }
  th{
     font-size: 20px;
-    font-weight: 300;
-    color: #c1c1c1;
+   font-weight: 700;
+    color: #576078;
  }
 table, th, td {
      padding: 15px 25px;
@@ -2310,6 +2315,7 @@ margin-bottom: 9px;
     letter-spacing: 0.5px;
     height: 100%;
     flex: 1 1 100%;
+    padding: 9px;
 }
 .blog__post--title{
     margin-bottom: 15px;
@@ -2326,6 +2332,7 @@ margin-bottom: 9px;
     font-weight: 700;
     line-height: 28px;
     letter-spacing: 0.1px;
+    padding: 9px;
 }
 
 .blog__item--title:hover{
@@ -2480,6 +2487,7 @@ li.post__article_advantage--item{
     background: transparent;
     color: #8a8a8a;
     outline:none;
+    text-transform: uppercase;
 }
 
 /* end option select------- */
@@ -2587,7 +2595,7 @@ li.post__article_advantage--item{
     .header__info-social {
         display: inline-flex;
         width: 0px;
-        justify-content: flex-end;
+        /* justify-content: flex-end; */
         margin-right: 29px;
         margin-left: 29px;
     }
@@ -2596,6 +2604,9 @@ li.post__article_advantage--item{
         display: flex;
         padding-top: 10px;
         justify-content: flex-end;
+    }
+    .footer-social-items{
+        margin-left: 0px; 
     }
 }
 @media (max-width: 1200px){
@@ -2655,11 +2666,17 @@ li.post__article_advantage--item{
     }
     .contacts__items {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+    }
+    .contacts__item:first-child{
+        margin-right: 12px;
+      }
+    .contacts__item:last-child{
+      margin-left: 12px;
     }
     .contacts__item{
         flex: 0 1 40%;
-         margin-right: 0;
+        margin-right: 0px;
         margin-bottom: 20px;
     }
    
@@ -3548,7 +3565,7 @@ flex: 0 0 45%;
        display: none;
     }
     .header_phone-lifesell {
-        padding: 0 17px 0 18px;
+        padding: 0 12px 0 18px;
     }
    
     .header_phone-kiyvstar {
